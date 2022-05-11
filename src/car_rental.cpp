@@ -7,7 +7,7 @@ CarRental::CarRental(){
 };
 
 double CarRental::totalPrice() const{
-    return rentedCar.getDayPrice()*rentalDays;
+    return rentedCar.getDayPrice()* (100-renter.getDiscount())/100 * rentalDays;
 }
 
 std::string CarRental::toString(){

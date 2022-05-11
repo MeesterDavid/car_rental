@@ -28,7 +28,7 @@ int main()
     ah2.setRentalDays(1);
     cout << ah2;
 
-    cout << ah2.toString();
+    // cout << ah2.toString();
 
     return 0;
 }
